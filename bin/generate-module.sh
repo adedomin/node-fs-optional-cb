@@ -20,7 +20,9 @@
 
 # shellcheck disable=2016
 {
-    printf '%s\n' "const fs = require('fs');"
+    printf '%s\n' \
+        "'use strict';" \
+        "const fs = require('fs');"
     curl --silent \
         --fail 'https://nodejs.org/api/fs.json' \
     | jq -r '

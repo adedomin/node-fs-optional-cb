@@ -1,3 +1,4 @@
+'use strict';
 const fs = require('fs');
 fs.__real_appendFile = fs.appendFile;
 fs.appendFile = function(...args) {
