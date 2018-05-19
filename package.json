@@ -1,0 +1,8 @@
+{
+  "name": "node-fs-wrap-non-optional-cb",
+  "version": "1.0.0",
+  "description": "wrap fs functions to get around v10 deprecation of optional callback",
+  "main": "index.js",
+  "author": "Anthony DeDominic <adedomin@gmail.com>",
+  "license": "MIT"
+}
